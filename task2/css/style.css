@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(147, 147, 235);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 0%;
+}
+
+table {
+    
+width: 50vw;
+height: 50vh;
+background-color: rgb(253, 253, 253);
+border-color: rgb(64, 138, 119);
+
+}
+tr{
+    border: 50px;
+    border-color: rgb(64, 138, 119);
+
+}
+#_1{
+    padding: 20px 
+
+}
+th{
+    text-align: center;
+}
