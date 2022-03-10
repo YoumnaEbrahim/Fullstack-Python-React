@@ -1,0 +1,173 @@
+
+*{
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box; 
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+nav .logo{
+    float: left;
+    height: 7vh;
+    margin: 1%;
+
+}
+nav .logo img{
+    clear: both;
+}
+nav .navMenu{
+    /* el3onsr eli ba3d el float lazm adeh clear  */
+    margin-left: 55%;
+}
+nav .navMenu li{
+    float: left;
+    margin: 0 1%;
+    list-style: none;
+    margin-top: 3%;
+
+}
+nav .navMenu li a{
+    clear: both;
+    text-decoration: none;
+    color: #2f3640;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+nav .navMenu li a:hover{
+    color: #0097e6 ;
+/* all de 3ala el color we font size      */
+    transition: all 0.5s ease-in-out ;
+}
+/* start header styling */
+.slider{
+    clear: both;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+.slider .caption{
+    clear: both;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #f5f6fa;
+    /* font-size: 25px; */
+    
+}
+
+.slider .caption h1{
+    font-size: 50px;
+}
+.slider .caption h4{
+    text-transform: uppercase;
+}
+.slider .caption .btn{
+border: 2px solid #f5f6fa;
+border-radius: 10px;
+font-size: 20px;
+padding: 1% 5% ;
+text-decoration: none;
+color: #f5f6fa;
+margin-left: 1%;
+}
+.slider .caption .btn:hover{
+    border: 2px solid #0097e6;
+    background-color: #0097e6;
+    color: #f5f6fa;
+    transition: all 0.25s ease-in-out ;    
+}
+.slider .opacity{
+    background-color: #2f3640;
+    /* width: 100%; */
+    height: 100%;
+    opacity: 0.8;
+}
+
+footer{
+    margin-top: 10%;
+    margin-bottom:20%;
+    clear: both;
+    position: relative;
+}
+footer .child{    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-transform: uppercase;
+    color:#2f3640; 
+  
+}
+
+footer p{
+    text-transform: lowercase;
+}
+
+.parent2{
+    
+    margin-top: 10%;
+    margin-bottom:5%;
+    margin-left: 26%;
+
+}
+
+.parent2 .clients img{
+    margin-right: 5%;
+    height:15vh;
+}
+
+
+.blueFooter{
+    height: 12vh;
+    background-color: #0097e6;
+    padding-bottom: 0%;
+    padding-top: 0%;
+
+}
+.blueFooter .copyRights{
+    float: left;
+    /* height: 5vh; */
+    /* padding-top: 1%; */
+    margin-left: 15%;
+
+    
+}
+.blueFooter h4{
+    clear: both;
+    color: #f5f6fa;
+    font-size: small;
+    /* padding-top: 0%; */
+
+}
+
+.blueFooter .social{
+    margin-left: 65%;
+}
+
+.blueFooter .social li{
+    float: left;
+    margin: 0 1%;
+    list-style: none;
+    margin-top: 5%;
+    margin-right: 7%;
+    /* padding-top: 1%; */
+
+
+}
+
+.blueFooter .social li a{
+    clear: both;
+    text-decoration: none;
+    color:#f5f6fa;
+    font-size: 20px;
+}
+
+
+
+
