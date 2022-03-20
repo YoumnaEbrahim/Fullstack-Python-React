@@ -1,0 +1,191 @@
+:root{
+    --main-color: #e74c3c;
+    --dark-gary: #2d3436;
+    --white: #ecf0f1;
+    --soft-gray: #636e72;
+}
+
+.navbar .navbar-brand h3,
+.navbar .navbar-nav .nav-item .nav-link{
+    color: var(--white);
+
+}
+header{
+    background-image:url(../imgs/slide-1.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-color: var(--dark-gary);
+    
+
+}
+/* =============================start-navbar================================ */
+
+nav .navbar-brand h3 span{
+    color: var(--main-color);
+}
+nav .navbar-nav .nav-item .nav-link:hover,nav .navbar-nav .nav-item .nav-link:focus{
+background-color: var(--main-color);
+color:var(--white);
+
+} 
+
+
+/* =============================end-navbar================================ */
+/* =============================start-circle================================ */
+.circle .row  i{
+    text-align: center;
+    padding: 5%;
+    color: var(--main-color);
+    font-size: 40px;
+    border: solid 1px var(--soft-gray);
+    border-radius: 50%;
+    width: 30%;
+
+}
+.circle .row h4{
+    text-transform: uppercase;
+}
+.circle .row div p{
+    width: 50%;
+    margin: auto;
+}
+
+/* =============================end-circle================================ */
+
+/* =============================start-caption================================ */
+header .caption h1 span{
+   color: var(--main-color); 
+}
+header .caption h1{
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+header .caption{
+    color: var(--white);
+}
+header .caption h1,header .caption .career{
+    text-transform: uppercase;
+}
+header .caption .career{
+    color: var(--white);
+    border: var(--white) 1px solid;
+}
+header .caption .career:hover{
+    background-color: var(--main-color);
+    transition: all 0.5s ease-in-out;
+
+}
+header .overlay{
+    background-color: var(--dark-gary);
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+}
+
+/* =============================start-ourwork================================ */
+.our-work .caption h1 span{
+    color: var(--main-color);
+} 
+
+.our-work .row img{
+    width: 100%;
+}
+.our-work .show:hover{
+    background-color: var(--main-color);
+}
+
+/* =============================start-ourteam================================ */
+.our-team{
+    color: var(--soft-gray);
+}
+.our-team.caption h1{
+    color: var(--dark-gary);
+}
+.our-team .caption h1 span{
+    color: var(--main-color);
+}
+.our-team .row img{
+    height: 30vh;
+    filter: grayscale(100%);
+
+
+}
+.our-team .row img:hover{
+    filter: grayscale(0%);
+    transition: all 0.5s ease-in-out;
+}
+.our-team .row img:hover ~ .icons .fa-facebook{
+    color: blue;
+
+}
+.our-team .row img:hover ~ .icons .fa-twitter{
+    color: rgb(134, 134, 238);
+
+}
+.our-team .row img:hover ~ .icons .fa-google{
+    color:rgb(212, 201, 41);
+
+}
+.our-team .row img:hover ~ .icons .fa-youtube{
+    color: rgb(228, 36, 36);
+
+}
+
+.form{
+    background-image: url(../imgs/contact-bg.jpg);
+    background-size: cover;
+    color: var(--white);
+
+}
+::placeholder{
+    color: white !important;
+}
+.form .overlay{
+    opacity: 0.7;
+    height: 100%;
+    width: 100%; 
+    background-color: var(--dark-gary);
+       
+}
+.form form{
+    width: 50%;
+    margin: auto;
+}
+.form h2 span{
+    color: var(--main-color);
+}
+.form button{
+    color: var(--white);
+    background-color: var(--main-color);
+    margin-left: 0%;
+    margin-right: 70%;
+
+}
+.form .parent{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.form form .parent .icons{
+    margin-top: 3%;
+}
+
+.form form .icons .fa-facebook-square{
+    color: 	#3b5998;
+
+}
+.form form .icons .fa-twitter{
+    color: 	#55acee;
+
+}
+.form form .icons .fa-youtube{
+    color: rgb(238, 13, 13);
+
+}
+
+.form form .icons .fa-google{
+    color: 	#dc4e41;
+
+}
